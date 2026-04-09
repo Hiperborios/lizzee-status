@@ -1,8 +1,6 @@
 owner: Hiperborios
 repo: lizzee-status
-
 user-agent: Hiperborios
-
 sites:
   - name: Lizzee
     url: https://lizz.ee
@@ -10,10 +8,8 @@ sites:
     url: https://app.lizz.ee
   - name: API
     url: https://api.lizz.ee/ping
-
 assignees:
   - Hiperborios
-
 status-website:
   cname: status.lizz.ee
   name: Lizzee Status
@@ -22,6 +18,8 @@ status-website:
   navbar:
     - title: Lizzee
       href: https://lizz.ee
+  introTitle: "**Lizzee** — Status dos Serviços"
+  introMessage: Monitorização em tempo real de lizz.ee, app.lizz.ee e api.lizz.ee. Encurta com confiança.
   css: |
     :root {
       --body-background-color: #0F1115;
@@ -31,10 +29,12 @@ status-website:
       --body-text-color: #F8F9FA;
     }
     a { color: #FF4FA3; }
-
+  customFootHtml: |
+    <div style="text-align:center; padding: 1rem; color: #6B7280; font-family: 'Montserrat', sans-serif; font-size: 0.8rem;">
+      © 2026 Lizzee · <a href="https://lizz.ee/privacy" style="color:#FF4FA3;">Privacidade</a> · <a href="mailto:hello@lizz.ee" style="color:#FF4FA3;">Suporte</a>
+    </div>
 i18n:
   allSystemsOperational: "Todos os sistemas operacionais"
   activeIncidents: "Incidentes activos"
-
 skipDescriptionUpdate: true
 skipTopicsUpdate: true

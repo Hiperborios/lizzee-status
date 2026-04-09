@@ -18,9 +18,19 @@ status-website:
   cname: status.lizz.ee
   name: Lizzee Status
   theme: dark
+  logoUrl: https://app.lizz.ee/logo.png
   navbar:
     - title: Lizzee
       href: https://lizz.ee
+  css: |
+    :root {
+      --body-background-color: #0F1115;
+      --card-background-color: #171A21;
+      --nav-background-color: #171A21;
+      --nav-border-bottom-color: #2A2F3A;
+      --body-text-color: #F8F9FA;
+    }
+    a { color: #FF4FA3; }
 
 i18n:
   allSystemsOperational: "Todos os sistemas operacionais"
